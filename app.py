@@ -90,6 +90,5 @@ iface = gr.Interface(
     description="Upload an image and speak into the microphone. The AI doctor will analyze the image, transcribe your speech, and respond in both text and voice.",
 )
 
-# Launch the Gradio app
-iface.launch(server_name="0.0.0.0", server_port=8080)
-
+# Launch
+iface.launch()
