@@ -61,3 +61,4 @@ streamlit
 pydub
 requests
 openai
+gunicorn

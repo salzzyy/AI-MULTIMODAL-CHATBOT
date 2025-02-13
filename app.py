@@ -91,4 +91,5 @@ iface = gr.Interface(
 )
 
 # Launch the Gradio app
-iface.launch(debug=True)
+iface.launch(server_name="0.0.0.0", server_port=8080)
+
